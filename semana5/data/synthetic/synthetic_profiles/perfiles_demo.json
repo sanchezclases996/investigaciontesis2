@@ -1,0 +1,44 @@
+[
+  {
+    "profile_id": "P001",
+    "label": "regular",
+    "passed_courses": [
+      "MAT101",
+      "PRG101"
+    ],
+    "credits_passed": 8,
+    "condition": "regular"
+  },
+  {
+    "profile_id": "P002",
+    "label": "listo_estadistica",
+    "passed_courses": [
+      "MAT101",
+      "MAT102",
+      "PRG101"
+    ],
+    "credits_passed": 12,
+    "condition": "regular"
+  },
+  {
+    "profile_id": "P003",
+    "label": "sin_prereq",
+    "passed_courses": [],
+    "credits_passed": 0,
+    "condition": "ingresante"
+  },
+  {
+    "profile_id": "P004",
+    "label": "tramite_grados",
+    "passed_courses": [
+      "MAT101",
+      "MAT102",
+      "EST201",
+      "PRG101",
+      "PRG102"
+    ],
+    "credits_passed": 19,
+    "condition": "egresado_en_tramite",
+    "escalate_hint": true
+  }
+]

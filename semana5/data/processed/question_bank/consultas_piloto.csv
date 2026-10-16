@@ -1,0 +1,197 @@
+query_id,pregunta,categoria,complejidad,doc_referencia,seccion_referencia,respuesta_esperada,requiere_herramienta,requiere_multiples_fuentes,es_respondible,validacion_experta,candidate_strategy,origen
+Q001,¿Qué modalidades de estudio tiene la UMA?,N,baja,D012,,"Presencial, Semipresencial y A Distancia; varían según la carrera.",False,False,True,draft,A1,faq
+Q002,¿Pueden deshabilitarme por inasistencias?,N,media,D012,,Hasta 30% de inasistencias a sesiones con horas lectivas implica desaprobación del curso (FAQ).,False,False,True,draft,A1,faq
+Q003,¿Qué es el examen sustitutorio y quiénes pueden acceder?,N,media,D012,,Evaluación extraordinaria opcional que reemplaza la menor nota de parcial o final; se programa en la semana 17 (FAQ).,False,False,True,draft,A1,faq
+Q004,¿En qué consiste el curso o examen de aplazados?,N,alta,D012,,"Trámite para recuperar asignaturas desaprobadas en el periodo regular inmediato anterior, con condiciones (FAQ).",False,False,True,draft,A1,faq
+Q005,¿Dónde reviso mis horarios de clase actualizados?,A,baja,D012,,"En SIGU, opción matrícula.",False,False,True,draft,A5,faq
+Q006,¿Qué hago si tengo cruce de horario o un curso no aparece en mi matrícula?,A,media,D012,,Escribir a Coordinación Académica con código y detalle (FAQ).,False,False,True,draft,A5,faq
+Q007,¿Cuánto cuesta el carné universitario y cómo lo solicito?,A,baja,D012,,S/30.00; registrar pedido en SIGU UMA (FAQ).,False,False,True,draft,A5,faq
+Q008,"Perdí mi carné, ¿puedo solicitar otro?",A,media,D012,,Duplicado por SIGU adjuntando denuncia policial de pérdida o robo (FAQ).,False,False,True,draft,A5,faq
+Q009,¿Cómo visualizo mi avance curricular?,R,baja,D012,,SIGU → Académica / Avance curricular (FAQ).,True,False,True,draft,A3,faq
+Q010,¿Cuáles son los requisitos para tramitar el diploma de bachiller o título?,M,alta,D005,,,False,True,True,draft,A3,faq
+Q011,¿Qué opciones de pago tengo?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q012,¿Dónde queda tesorería?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q013,¿Cuáles son mis credenciales de ingreso al SIGU UMA?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q014,¿Cómo solicito la reprogramación de una clase o justifico mi inasistencia a una evaluación?,A,media,D012,,,False,False,True,draft,A5,faq
+Q015,¿Cómo puedo visualizar mi asistencia a clases?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q016,¿Cómo puedo acceder a las notas de mis evaluaciones?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q017,¿Qué debo hacer si no aparecen mis asistencias registradas correctamente?,A,media,D012,,,False,False,True,draft,A5,faq
+Q018,¿Cómo se definen los criterios de evaluación en cada curso?,N,media,D012,,,False,False,True,draft,A1,faq
+Q019,¿Qué hacer en caso tenga un reclamo respecto a la nota de una evaluación?,A,media,D012,,,False,False,True,draft,A5,faq
+Q020,¿Qué debo hacer si tengo problemas para ubicarme en un aula o no aparece el aula asignada?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q021,¿Qué pasos debo seguir si tengo problemas académicos o necesito orientación adicional?,A,media,D012,,,False,False,True,draft,A5,faq
+Q022,¿Cómo activar mi cuenta Zoom?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q023,¿Cómo accedo al Wi-Fi de la universidad?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q024,¿Qué hago si no puedo acceder a mi correo institucional?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q025,¿Cuál es la página web para poder acceder a mi correo institucional?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q026,"¿Mis datos en la plataforma son erróneos, me puede ayudar a corregirlos?",A,media,D012,,,False,False,True,draft,A5,faq
+Q027,¿Cómo ingreso mi trámite de diploma?,A,media,D012,,,False,False,True,draft,A5,faq
+Q028,¿Cómo puedo ver el estado de mi trámite ingresado?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q029,¿Dónde verifico si mi diploma ya está registrado en SUNEDU?,A,media,D012,,,False,False,True,draft,A5,faq
+Q030,¿Cuáles son los requisitos para recoger mi diploma?,M,alta,D005,,,False,True,True,draft,A3,faq
+Q031,¿Dónde puedo descargar mi cronograma de pagos?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q032,¿Qué descuentos tienen para las cuotas?,N,media,D012,,,False,False,True,draft,A1,faq
+Q033,¿Qué medios de pago hay para pagar mis cuotas?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q034,¿Cómo pago mis trámites?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q035,¿Cuál es el horario de atención de Tesorería?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q036,¿Cuándo inicia el Proceso 2025-2?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q037,¿Qué normas regula el reglamento académico de la UMA?,N,baja,D001,,,False,False,True,draft,A1,documento
+Q038,¿Cómo se organiza el sistema de evaluación según el reglamento académico?,N,media,D001,,,False,False,True,draft,A1,documento
+Q039,¿Qué porcentaje de asistencia mínima exige el reglamento académico?,N,media,D001,,,False,False,True,draft,A1,documento
+Q040,¿Qué ocurre si un estudiante desaprueba un curso según el reglamento académico?,N,media,D001,,,False,False,True,draft,A1,documento
+Q041,¿Existe evaluación sustitutoria en el reglamento académico y bajo qué condiciones?,N,alta,D001,,,False,False,True,draft,A1,documento
+Q042,¿Cómo se define el promedio ponderado en el reglamento académico?,N,media,D001,,,False,False,True,draft,A1,documento
+Q043,¿Qué es la reserva de matrícula según la normativa académica?,N,media,D001,,,False,False,True,draft,A1,documento
+Q044,¿Qué disposiciones hay sobre retiro de asignaturas?,N,media,D001,,,False,False,True,draft,A1,documento
+Q045,¿Qué dice el reglamento académico sobre el régimen de estudios?,N,baja,D001,,,False,False,True,draft,A1,documento
+Q046,¿Cómo se trata la justificación de inasistencias en el reglamento académico?,N,alta,D001,,,False,False,True,draft,A1,documento
+Q047,¿Qué condiciones establece el reglamento de matrícula para matricularme?,N,media,D002,,,False,False,True,draft,A1,documento
+Q048,¿Cuáles son los requisitos previos a la matrícula según el reglamento general de matrícula?,N,media,D002,,,False,False,True,draft,A1,documento
+Q049,¿Qué tipos de matrícula contempla el reglamento de matrícula?,N,baja,D002,,,False,False,True,draft,A1,documento
+Q050,¿Qué plazos o periodos de matrícula menciona el reglamento de matrícula?,N,media,D002,,,False,False,True,draft,A1,documento
+Q051,¿Se puede rectificar la matrícula y bajo qué reglas?,N,alta,D002,,,False,False,True,draft,A1,documento
+Q052,¿Qué obligaciones tiene el estudiante al matricularse?,N,media,D002,,,False,False,True,draft,A1,documento
+Q053,¿Qué sucede si no me matriculo en el plazo establecido?,N,media,D002,,,False,False,True,draft,A1,documento
+Q054,¿El reglamento de matrícula distingue matrícula regular y extemporánea?,N,baja,D002,,,False,False,True,draft,A1,documento
+Q055,¿Cuál es la finalidad del reglamento general de la UMA 2025?,N,baja,D003,,,False,False,True,draft,A1,documento
+Q056,¿Qué órganos de gobierno menciona el reglamento general?,N,media,D003,,,False,False,True,draft,A1,documento
+Q057,¿Qué derechos y deberes del estudiante recoge el reglamento general?,N,media,D003,,,False,False,True,draft,A1,documento
+Q058,¿Cómo se vincula el reglamento general con otros reglamentos específicos?,M,alta,D003,,,False,True,True,draft,A3,documento
+Q059,¿Qué disposiciones generales aplican a la comunidad universitaria según el reglamento general?,N,baja,D003,,,False,False,True,draft,A1,documento
+Q060,¿Qué regula el reglamento económico universitario?,N,baja,D004,,,False,False,True,draft,A1,documento
+Q061,¿Cuáles son las obligaciones de pago del estudiante según el reglamento económico?,N,media,D004,,,False,False,True,draft,A1,documento
+Q062,¿Qué consecuencias tiene el incumplimiento de pagos según el reglamento económico?,N,alta,D004,,,False,False,True,draft,A1,documento
+Q063,¿Existen fraccionamientos o facilidades de pago en el reglamento económico?,N,media,D004,,,False,False,True,draft,A1,documento
+Q064,¿Cómo se relacionan las tasas del tarifario con el reglamento económico?,M,alta,D004,,,False,True,True,draft,A3,documento
+Q065,¿Qué requisitos exige el reglamento de grados y títulos para el bachiller?,N,alta,D005,,,False,False,True,draft,A1,documento
+Q066,¿Qué requisitos exige el reglamento de grados y títulos para el título profesional?,N,alta,D005,,,False,False,True,draft,A1,documento
+Q067,¿Qué base legal cita el reglamento de grados y títulos?,N,baja,D005,,,False,False,True,draft,A1,documento
+Q068,¿Cómo se gestiona el trámite de grados a través del SIGU según el reglamento?,M,alta,D005,,,False,True,True,draft,A3,documento
+Q069,¿Qué documentos debo presentar para optar el grado de bachiller?,N,media,D005,,,False,False,True,draft,A1,documento
+Q070,¿Hay plazos o etapas en el procedimiento de grados y títulos?,N,media,D005,,,False,False,True,draft,A1,documento
+Q071,¿Qué modalidades de admisión contempla el reglamento de admisión de pregrado?,N,media,D006,,,False,False,True,draft,A1,documento
+Q072,¿Cuáles son los requisitos generales para postular a pregrado?,N,media,D006,,,False,False,True,draft,A1,documento
+Q073,¿Qué documentos se exigen en el proceso de admisión?,N,baja,D006,,,False,False,True,draft,A1,documento
+Q074,¿Cómo se determina el ingreso según el reglamento de admisión?,N,media,D006,,,False,False,True,draft,A1,documento
+Q075,¿Existe admisión por traslado o egresados de otras instituciones?,N,alta,D006,,,False,False,True,draft,A1,documento
+Q076,¿Qué tipos de beca contempla el reglamento de becas?,N,media,D007,,,False,False,True,draft,A1,documento
+Q077,¿Cuáles son los requisitos para solicitar una beca?,N,alta,D007,,,False,False,True,draft,A1,documento
+Q078,¿Cómo se solicita una beca según el reglamento?,A,media,D007,,,False,False,True,draft,A5,documento
+Q079,¿Qué obligaciones mantiene el becario?,N,media,D007,,,False,False,True,draft,A1,documento
+Q080,¿En qué casos se pierde o suspende una beca?,N,alta,D007,,,False,False,True,draft,A1,documento
+Q081,¿Qué es el sistema de tutoría universitaria según el reglamento?,N,baja,D008,,,False,False,True,draft,A1,documento
+Q082,¿Cuáles son las funciones del docente tutor?,N,media,D008,,,False,False,True,draft,A1,documento
+Q083,¿Cómo se asigna un tutor al estudiante?,N,media,D008,,,False,False,True,draft,A1,documento
+Q084,¿La tutoría puede realizarse de forma virtual?,N,baja,D008,,,False,False,True,draft,A1,documento
+Q085,¿Qué obligaciones tiene el estudiante respecto a la tutoría?,N,media,D008,,,False,False,True,draft,A1,documento
+Q086,¿Puedo convalidar un curso cursado en otra universidad?,N,alta,D009,,,False,False,True,draft,A1,documento
+Q087,¿Qué principios rigen la convalidación o reconocimiento de cursos?,N,media,D009,,,False,False,True,draft,A1,documento
+Q088,¿Qué documentos se requieren para solicitar convalidación?,N,media,D009,,,False,False,True,draft,A1,documento
+Q089,¿Quién evalúa la equivalencia de contenidos en una convalidación?,N,media,D009,,,False,False,True,draft,A1,documento
+Q090,¿Qué ocurre si faltan prerrequisitos al convalidar?,M,alta,D009,,,False,True,True,draft,A3,documento
+Q091,¿Dónde consulto las tasas educativas vigentes 2025?,N,baja,D011,,,False,False,True,draft,A1,documento
+Q092,¿Qué servicios académicos tienen tarifa publicada en el tarifario 2025?,N,media,D011,,,False,False,True,draft,A1,documento
+Q093,¿El tarifario indica montos para trámites de grados o certificados?,N,media,D011,,,False,False,True,draft,A1,documento
+Q094,¿Cómo se relaciona el costo del carné con el tarifario oficial?,M,media,D011,,,False,True,True,draft,A3,documento
+Q095,¿Cuáles son los prerrequisitos del curso C103 según el grafo de malla de demostración?,R,media,malla_demo_grafo,,Definidos en malla_demo_grafo.json (demostración).,True,False,True,draft,A3,malla_demo
+Q096,¿Puedo llevar el curso C201 con el perfil demo P01 según el grafo?,R,alta,malla_demo_grafo,,Depende de cursos aprobados en perfiles_demo.json y reglas del grafo.,True,False,True,draft,A3,malla_demo
+Q097,¿Qué cursos desbloquea C101 en el grafo de demostración?,R,baja,malla_demo_grafo,,,True,False,True,draft,A3,malla_demo
+Q098,¿Existe un camino curricular sugerido hacia C301 en el grafo demo?,R,alta,malla_demo_grafo,,,True,False,True,draft,A3,malla_demo
+Q099,¿Qué dice el reglamento académico sobre evaluación y asistencia en conjunto con la FAQ?,M,alta,D001,,,False,True,True,draft,A3,documento
+Q100,¿Puedo matricularme si tengo deuda según reglamento de matrícula y reglamento económico?,M,alta,D002,,,False,True,True,draft,A3,documento
+Q101,¿Cuál es la fecha exacta de inicio de clases del ciclo actual en un calendario oficial de la facultad?,N,baja,pendiente_calendario,,,False,False,False,draft,A1,documento
+Q102,¿Cuáles son los prerrequisitos oficiales del plan de estudios de Ingeniería de la facultad?,R,alta,pendiente_malla_oficial,,,True,False,False,draft,A3,documento
+Q103,¿Cómo combino requisitos de bachiller del D005 con tasas del tarifario D011?,M,alta,D005,,,False,True,True,draft,A3,documento
+Q104,¿La guía de proceso de matrícula D010 aporta pasos operativos adicionales al reglamento D002?,M,alta,D010,,,False,True,False,draft,A3,documento
+Q105,¿Cuánto cuesta el carné universitario?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q106,¿Puedo solicitar otro?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q107,¿Dónde puedo revisar mis horarios de clase actualizados y docentes asignados?,A,media,D012,,,False,False,True,draft,A5,faq
+Q108,¿Qué debo hacer si tengo un cruce de horario o un curso no aparece en mi matrícula?,A,media,D012,,,False,False,True,draft,A5,faq
+Q109,¿En qué consiste el curso y/o examen de aplazados y quiénes pueden acceder?,N,media,D012,,,False,False,True,draft,A1,faq
+Q110,¿Cómo puedo visualizar mi avance curricular?,R,media,D012,,,True,False,True,draft,A3,faq
+Q111,¿Hay algún descuento si pago antes mi cuota?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q112,¿Qué pasa si pago mi cuota fuera de fecha?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q113,¿Cómo genero un concepto de pago?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q114,¿Dónde puedo consultar el estado de mi deuda y los pagos realizados?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q115,¿Por dónde me comunico con tesorería?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q116,¿Cómo realizo mi trámite de carné universitario?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q117,¿Cuáles son sus requisitos?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q118,¿En cuánto tiempo me lo entregarán?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q119,¿Cómo puedo hacer seguimiento a mi trámite ingresado en el SIGU?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q120,¿Cómo saber si está bien?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q121,¿Cómo descargo mi documento que ya está finalizado en el SIGU?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q122,¿Dónde solicito el Libro de Reclamaciones?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q123,¿Qué es la Responsabilidad Social Universitaria en la UMA?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q124,¿Qué es el programa UMA Barrio y cómo puedo involucrarme?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q125,¿Cómo puedo participar en actividades de Responsabilidad Social Universitaria?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q126,¿Las actividades de RSU son obligatorias?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q127,¿Dónde puedo consultar el Reglamento de Responsabilidad Social Universitaria?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q128,¿Cómo se convalidan los créditos extracurriculares por actividades de RSU?,R,media,D012,,,True,False,True,draft,A3,faq
+Q129,¿Qué beneficios obtengo al participar en proyectos de RSU?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q130,¿Las horas de RSU cuentan como horas de prácticas preprofesionales?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q131,¿Puedo proponer un proyecto de RSU como estudiante?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q132,¿Dónde se desarrollan las actividades de RSU?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q133,¿Qué tipo de proyectos realiza la UMA en RSU?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q134,¿Puedo usar mi participación en RSU para mi portafolio profesional?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q135,¿Cómo sé si estoy inscrito correctamente en una actividad de RSU?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q136,¿Qué sucede si incumplo con las responsabilidades asumidas en un proyecto de RSU?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q137,¿Dónde está ubicada la biblioteca UMA?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q138,¿Cuál es el horario de atención en biblioteca UMA?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q139,¿Cómo puedo contactarme con biblioteca?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q140,¿Quiénes pueden hacer uso de biblioteca UMA?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q141,¿Qué tipo de servicios brinda la biblioteca UMA?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q142,¿Qué necesito para hacer uso de biblioteca UMA?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q143,¿Cómo puedo buscar libros físicos en biblioteca UMA?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q144,¿Qué bases de datos tiene la biblioteca virtual UMA?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q145,¿Qué necesito para ingresar y utilizar la biblioteca virtual UMA?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q146,¿Puedo solicitar algún tipo de capacitación presencial o virtual sobre los recursos de biblioteca UMA?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q147,¿Qué son los cursos extracurriculares que ofrece la universidad?,R,media,D012,,,True,False,True,draft,A3,faq
+Q148,¿Los cursos extracurriculares tienen algún costo adicional o están incluidos en la matrícula?,R,media,D012,,,True,False,True,draft,A3,faq
+Q149,¿Cómo puedo inscribirme en un taller o curso extracurricular?,R,media,D012,,,True,False,True,draft,A3,faq
+Q150,¿Los talleres y cursos extracurriculares otorgan créditos académicos o certificados?,R,media,D012,,,True,False,True,draft,A3,faq
+Q151,¿Qué horarios tienen disponibles?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q152,¿Los cursos extracurriculares están relacionados con mi carrera o son de temas generales?,R,media,D012,,,True,False,True,draft,A3,faq
+Q153,¿Por qué debo participar en estas actividades extracurriculares?,R,media,D012,,,True,False,True,draft,A3,faq
+Q154,¿Un estudiante puede proponer un taller o curso extracurricular?,R,media,D012,,,True,False,True,draft,A3,faq
+Q155,¿Hay requisitos específicos para participar en estos cursos o talleres?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q156,¿Cómo puedo conocer la programación de talleres y cursos para el semestre?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q157,¿dónde se dictaría?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q158,¿Es mejor llevar los cursos en la última etapa de la universidad o desde los primeros ciclos?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q159,¿Qué debo hacer para registrar a mi hijo(a) en la guardería UMACITOS?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q160,¿Cómo puedo acceder a una sesión de orientación y consejería psicológica o psicopedagógica?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q161,¿Cómo solicito un certificado de estudios?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q162,¿Cómo solicito una constancia de egresado?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q163,¿Cómo solicito una constancia de matrícula/promedio ponderado/orden de mérito/estudios/disciplina?,N,media,D012,,,False,False,True,draft,A1,faq
+Q164,¿Cómo realizo un traslado interno a otra carrera?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q165,¿Cómo puedo realizar mi RETIRO DE CURSO?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q166,¿Qué trámite debo de realizar?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q167,¿Cómo solicito mi certificado de taller extracurricular?,R,media,D012,,,True,False,True,draft,A3,faq
+Q168,¿Cómo realizo una rectificación de matrícula?,N,media,D012,,,False,False,True,draft,A1,faq
+Q169,¿Puedo matricularme con cruce de horario?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q170,¿Qué son las evaluaciones UMAPlus+?,N,media,D012,,,False,False,True,draft,A1,faq
+Q171,¿Qué cursos cuentan con evaluaciones UMAPlus+?,N,media,D012,,,False,False,True,draft,A1,faq
+Q172,¿Cuándo puedo visualizar mis notas de UMAPlus+?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q173,¿Cuántas veces puedo rendir una evaluación UMAPlus+?,N,media,D012,,,False,False,True,draft,A1,faq
+Q174,¿Cómo ingreso a la plataforma virtual de la UMA?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q175,¿Por qué no visualizo mi curso en la plataforma virtual?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q176,¿Dónde puedo consultar los horarios de mis cursos?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q177,¿Cómo sé si mi clase es síncrona o asincrónica?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q178,¿Dónde encuentro los enlaces de mis clases en vivo?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q179,¿Dónde encuentro las grabaciones de mis clases?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q180,¿Qué hago si tengo problemas técnicos durante una evaluación?,N,media,D012,,,False,False,True,draft,A1,faq
+Q181,¿Puedo usar mi celular para ingresar a la plataforma?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q182,¿Qué navegador debo usar para evitar errores en la plataforma virtual?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q183,¿Qué hago si olvidé mi contraseña del correo UMA?,A,baja,D012,,,False,False,True,draft,A5,faq
+Q184,¿Puedo subir mis tareas desde el celular?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q185,¿Qué hago si mi nota no aparece después de entregar una tarea?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q186,¿Cómo sé si mi entrega fue registrada correctamente?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q187,¿A quién escribo si tengo dudas sobre el desarrollo del curso?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q188,¿Cómo contacto al área de Educación Virtual?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q189,¿Dónde puedo recibir orientación sobre cómo estudiar en modalidad virtual?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q190,¿Dónde puedo ver las ofertas de prácticas y empleo vigentes?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q191,¿Cómo me registro o edito mi perfil profesional por primera vez en la Bolsa de Trabajo?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q192,"¿Qué eventos, talleres o actividades en general de empleabilidad habrá este semestre?",N,baja,D012,,,False,False,True,draft,A1,faq
+Q193,¿Cómo actualizo mis datos si ya egresé?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q194,¿Cómo reporto problemas con la encuesta anual de egresados?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q195,¿Qué hago si mi empleador desea firmar un convenio con la UMA?,N,baja,D012,,,False,False,True,draft,A1,faq
+Q196,¿Aún tienes dudas?,N,baja,D012,,,False,False,True,draft,A1,faq

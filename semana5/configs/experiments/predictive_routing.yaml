@@ -1,0 +1,10 @@
+name: predictive_routing
+strategies: [A5]
+description: "Router predictivo elige entre candidatas (y derivación a persona)."
+compare_against: [A1, A4]
+config_refs:
+  data: configs/data.yaml
+  retrieval: configs/retrieval.yaml
+  models: configs/models.yaml
+  router: configs/router.yaml
+  evaluation: configs/evaluation.yaml
