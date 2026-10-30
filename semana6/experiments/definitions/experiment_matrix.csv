@@ -1,0 +1,7 @@
+config,name,purpose
+A0,modelo_base,Referencia sin recuperación
+A1,rag,Recuperación documental con citas
+A2,fine_tuning,Adaptación al dominio si viable
+A3,rag_tools,RAG + herramientas de malla
+A4,compuesta_fija,Configuración completa sin enrutar
+A5,routing_predictivo,Selección dinámica por consulta

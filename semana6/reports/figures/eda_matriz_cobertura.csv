@@ -1,0 +1,15 @@
+tema,D001,D002,D003,D004,D005,D006,D007,D008,D009,D010,D011,D012
+matricula_inscripcion,cubierto,cubierto,no_cubierto,cubierto,no_cubierto,cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,cubierto,cubierto
+anulacion_retiro,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto
+asistencia_inasistencia,cubierto,no_cubierto,cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,cubierto,no_cubierto,no_cubierto,no_cubierto,cubierto
+evaluacion_examenes,cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,cubierto,cubierto
+creditos_academicos,cubierto,cubierto,no_cubierto,cubierto,no_cubierto,cubierto,cubierto,no_cubierto,cubierto,no_cubierto,no_cubierto,cubierto
+prerrequisitos,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto
+convalidacion,cubierto,cubierto,no_cubierto,no_cubierto,no_cubierto,cubierto,no_cubierto,no_cubierto,cubierto,no_cubierto,cubierto,no_cubierto
+aprobacion_desaprobacion,cubierto,cubierto,no_cubierto,no_cubierto,cubierto,no_cubierto,cubierto,cubierto,no_cubierto,no_cubierto,no_cubierto,cubierto
+tramites_grados_titulos,cubierto,no_cubierto,cubierto,no_cubierto,cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,cubierto,cubierto
+becas,no_cubierto,cubierto,no_cubierto,no_cubierto,no_cubierto,cubierto,cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,cubierto
+admision,cubierto,no_cubierto,cubierto,no_cubierto,no_cubierto,cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,cubierto,cubierto
+tarifas_pensiones,cubierto,cubierto,no_cubierto,cubierto,no_cubierto,no_cubierto,cubierto,no_cubierto,no_cubierto,no_cubierto,cubierto,cubierto
+malla_plan_estudios,cubierto,cubierto,cubierto,no_cubierto,cubierto,no_cubierto,no_cubierto,no_cubierto,cubierto,no_cubierto,cubierto,cubierto
+calendario_periodo,cubierto,cubierto,no_cubierto,cubierto,no_cubierto,no_cubierto,cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto,no_cubierto

@@ -1,0 +1,8 @@
+chunk_size_chars: 1200
+chunk_overlap_chars: 150
+top_k: 5
+hybrid:
+  dense: true
+  lexical_bm25: true
+  fusion: rrf
+index_dir: artifacts/index
