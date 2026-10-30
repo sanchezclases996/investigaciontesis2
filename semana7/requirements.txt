@@ -1,0 +1,13 @@
+# Preferir: pip install -e ".[dev]"
+pandas>=2.2
+polars>=1.0
+scikit-learn>=1.5
+pydantic>=2.7
+PyYAML>=6.0
+joblib>=1.4
+matplotlib>=3.8
+shap>=0.45
+rank-bm25>=0.2.2
+pypdf>=5.0
+pytest>=8.0
+ruff>=0.6

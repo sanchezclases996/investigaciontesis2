@@ -1,0 +1,8 @@
+name: rag_tools
+strategies: [A3]
+description: "RAG + herramientas de malla/prerrequisitos."
+config_refs:
+  data: configs/data.yaml
+  retrieval: configs/retrieval.yaml
+  models: configs/models.yaml
+  evaluation: configs/evaluation.yaml

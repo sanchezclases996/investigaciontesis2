@@ -1,0 +1,134 @@
+[
+  {
+    "doc_id": "D001",
+    "source_file": "data/raw/public_documents/D001__Reglamento-academico.pdf",
+    "extracted_text": "data/interim/extracted_text/D001.txt",
+    "n_pages": 16,
+    "n_empty_pages": 0,
+    "chars": 44872,
+    "words": 6567,
+    "texto_extraible": true,
+    "estado_extraccion": "ok"
+  },
+  {
+    "doc_id": "D002",
+    "source_file": "data/raw/public_documents/D002__REGLAMENTO_DE_MATRICULA.pdf",
+    "extracted_text": "data/interim/extracted_text/D002.txt",
+    "n_pages": 5,
+    "n_empty_pages": 0,
+    "chars": 13998,
+    "words": 2082,
+    "texto_extraible": true,
+    "estado_extraccion": "ok"
+  },
+  {
+    "doc_id": "D003",
+    "source_file": "data/raw/public_documents/D003__REGLAMENTO_GENERAL_2025_ultimo.pdf",
+    "extracted_text": "data/interim/extracted_text/D003.txt",
+    "n_pages": 18,
+    "n_empty_pages": 0,
+    "chars": 55362,
+    "words": 7954,
+    "texto_extraible": true,
+    "estado_extraccion": "ok"
+  },
+  {
+    "doc_id": "D004",
+    "source_file": "data/raw/public_documents/D004__Reglamento_economico_universitario.pdf",
+    "extracted_text": "data/interim/extracted_text/D004.txt",
+    "n_pages": 5,
+    "n_empty_pages": 0,
+    "chars": 10478,
+    "words": 1625,
+    "texto_extraible": true,
+    "estado_extraccion": "ok"
+  },
+  {
+    "doc_id": "D005",
+    "source_file": "data/raw/public_documents/D005__043-Reglamento-de-Grados-y-Titulo.pdf",
+    "extracted_text": "data/interim/extracted_text/D005.txt",
+    "n_pages": 20,
+    "n_empty_pages": 0,
+    "chars": 57927,
+    "words": 8623,
+    "texto_extraible": true,
+    "estado_extraccion": "ok"
+  },
+  {
+    "doc_id": "D006",
+    "source_file": "data/raw/public_documents/D006__reglamento-admision-pregrado.pdf",
+    "extracted_text": "data/interim/extracted_text/D006.txt",
+    "n_pages": 8,
+    "n_empty_pages": 0,
+    "chars": 22202,
+    "words": 3193,
+    "texto_extraible": true,
+    "estado_extraccion": "ok"
+  },
+  {
+    "doc_id": "D007",
+    "source_file": "data/raw/public_documents/D007__REGLAMENTO-DE-BECAS.pdf",
+    "extracted_text": "data/interim/extracted_text/D007.txt",
+    "n_pages": 10,
+    "n_empty_pages": 0,
+    "chars": 21873,
+    "words": 3161,
+    "texto_extraible": true,
+    "estado_extraccion": "ok"
+  },
+  {
+    "doc_id": "D008",
+    "source_file": "data/raw/public_documents/D008__reglamento-del-sistema-de-tutoria-universitaria-actualizacion.pdf",
+    "extracted_text": "data/interim/extracted_text/D008.txt",
+    "n_pages": 7,
+    "n_empty_pages": 0,
+    "chars": 19619,
+    "words": 2795,
+    "texto_extraible": true,
+    "estado_extraccion": "ok"
+  },
+  {
+    "doc_id": "D009",
+    "source_file": "data/raw/public_documents/D009__Reglamento-de-convalidaciones-y-reconocimiento-de-cursos.pdf",
+    "extracted_text": "data/interim/extracted_text/D009.txt",
+    "n_pages": 3,
+    "n_empty_pages": 0,
+    "chars": 7820,
+    "words": 1074,
+    "texto_extraible": true,
+    "estado_extraccion": "ok"
+  },
+  {
+    "doc_id": "D010",
+    "source_file": "data/raw/public_documents/D010__proceso_matricula2021web.pdf",
+    "extracted_text": "data/interim/extracted_text/D010.txt",
+    "n_pages": 1,
+    "n_empty_pages": 0,
+    "chars": 819,
+    "words": 128,
+    "texto_extraible": true,
+    "estado_extraccion": "weak_or_scanned"
+  },
+  {
+    "doc_id": "D011",
+    "source_file": "data/raw/public_documents/D011__Tarifario-uma-2025.pdf",
+    "extracted_text": "data/interim/extracted_text/D011.txt",
+    "n_pages": 8,
+    "n_empty_pages": 0,
+    "chars": 24678,
+    "words": 3443,
+    "texto_extraible": true,
+    "estado_extraccion": "ok"
+  },
+  {
+    "doc_id": "D012",
+    "source_file": "data/raw/public_documents/D012__faq.html",
+    "extracted_text": "data/interim/extracted_text/D012.txt",
+    "n_pages": 1,
+    "n_empty_pages": 0,
+    "chars": 54845,
+    "words": 8085,
+    "texto_extraible": true,
+    "estado_extraccion": "ok"
+  }
+]

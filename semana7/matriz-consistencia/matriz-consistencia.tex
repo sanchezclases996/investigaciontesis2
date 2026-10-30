@@ -1,0 +1,88 @@
+\documentclass[10pt,a4paper,landscape]{article}
+\usepackage[top=0.55cm,bottom=0.5cm,left=3.0cm,right=3.0cm]{geometry}
+\usepackage{fontspec}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{setspace}
+\setmainfont{Arial}
+% Columnas más angostas que el ancho total → más saltos de línea → baja el bloque
+\newcolumntype{Y}{>{\raggedright\arraybackslash\scriptsize}X}
+\pagestyle{empty}
+\begin{document}
+\setstretch{1.0}
+
+\begin{center}
+{\Large\bfseries Matriz de consistencia}\\[0.28em]
+{\normalsize Enrutamiento predictivo de estrategias de atención para consultas académico-administrativas}\\[0.18em]
+{\small Integrantes: Carlos Sánchez y Freud Melgar}
+\end{center}
+
+\vspace{0.3em}
+\noindent\textbf{\small Caso general}\\[0.18em]
+{\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\linewidth}{|Y|Y|Y|Y|Y|}
+\hline
+\textbf{\footnotesize Problema} & \textbf{\footnotesize Objetivos} & \textbf{\footnotesize Hipótesis} & \textbf{\footnotesize Variables} & \textbf{\footnotesize Indicadores} \\
+\hline
+\textbf{Problema general.} ¿En qué medida un enrutamiento predictivo de estrategias de atención mejora el equilibrio entre calidad, latencia y costo frente a estrategias fijas, en consultas académico-administrativas de la Facultad de Ingeniería y Negocios de la UMA en San Juan de Lurigancho? &
+\textbf{Objetivo general.} Mejorar el equilibrio entre calidad, latencia y costo en consultas académico-administrativas de la Facultad de Ingeniería y Negocios de la Universidad María Auxiliadora, mediante enrutamiento predictivo de estrategias de atención frente a estrategias fijas (exactitud relativa $\geq 95\%$ vs mejor fija; costo o latencia $\leq 70\%$ vs fija más cara). &
+\textbf{Hipótesis general.} En el banco de evaluación, el enrutamiento predictivo (A4) alcanza exactitud relativa $\geq 95\%$ respecto de la mejor estrategia fija y costo o latencia agregados $\leq 70\%$ respecto de la estrategia fija más cara; además, en al menos una tipología mejora costo o latencia frente a esa fija sin caer de ese margen de exactitud. Si no se cumplen esos umbrales, la hipótesis general no se sostiene. &
+\textbf{Independiente:} condición de atención (A0--A4; en A4, política R0--R2). \textbf{Dependientes:} exactitud, fidelidad a fuentes, latencia, costo (USD/consulta), acierto de ruta, tasa de escalamiento correcto. &
+Exactitud relativa $\geq 95\%$ vs mejor fija; costo o latencia $\leq 70\%$ vs fija más cara; fidelidad; acierto de ruta; escalamiento correcto. \\
+\hline
+\end{tabularx}
+}
+
+\vspace{0.35em}
+\noindent\textbf{\small Casos específicos}\\[0.18em]
+{\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.28}
+\begin{tabularx}{\linewidth}{|Y|Y|Y|Y|Y|}
+\hline
+\textbf{\footnotesize Problema} & \textbf{\footnotesize Objetivos} & \textbf{\footnotesize Hipótesis} & \textbf{\footnotesize Variables} & \textbf{\footnotesize Indicadores} \\
+\hline
+\textbf{PE1.} ¿Cómo disponer de un conjunto representativo y validado de consultas académico-administrativas, con respuestas de referencia y etiquetas elaboradas con apoyo de expertos? &
+\textbf{OE1.} Disponer de un banco validado de consultas académico-administrativas con respuestas de referencia y etiquetas, con apoyo de expertos y acuerdo entre anotadores (kappa de Cohen $\geq 0{,}85$). &
+\textbf{HE1.} El banco de calibración y evaluación cubre las tipologías definidas (norma o calendario; malla; mixta; ambigua o personal) con kappa de Cohen $\geq 0{,}85$ entre anotadores; si $\kappa$ queda bajo $0{,}85$, HE1 no se sostiene. &
+\textbf{Indep.:} procedimiento de construcción y validación del banco. \textbf{Dep.:} cobertura por tipología; acuerdo entre expertos ($\kappa$); completitud de la respuesta de referencia. &
+Cobertura de tipologías; $\kappa\geq 0{,}85$; proporción de ítems con respuesta de referencia completa. \\
+\hline
+\textbf{PE2.} ¿Cómo se comportan distintas estrategias fijas de atención en calidad, latencia y costo? &
+\textbf{OE2.} Comparar las estrategias fijas de atención en calidad, latencia y costo. &
+\textbf{HE2.} Las estrategias fijas no son equivalentes: al menos una estrategia más compleja mejora exactitud o fidelidad frente a A0 o A1 en alguna tipología, a costa de mayor latencia o costo; si todas las fijas dan el mismo perfil CLC, HE2 no se sostiene. &
+\textbf{Indep.:} estrategia fija (A0, A1, A2, A3). \textbf{Dep.:} exactitud; fidelidad; latencia; costo USD. &
+Exactitud; fidelidad a fuentes; latencia; costo USD por estrategia fija. \\
+\hline
+\textbf{PE3.} ¿Qué tipologías de consulta se benefician de formas más complejas de atención? &
+\textbf{OE3.} Identificar en qué tipologías de consulta conviene una forma más compleja de atención. &
+\textbf{HE3.} Existe al menos una tipología en la que una forma más compleja (A2 o A3) mejora exactitud o fidelidad frente a una estrategia fija simple (A0 o A1); si ninguna tipología muestra esa mejora, HE3 no se sostiene. &
+\textbf{Indep.:} tipología $\times$ estrategia fija. \textbf{Dep.:} mejora de exactitud o fidelidad por tipología. &
+Mejora por tipología frente a una estrategia fija simple. \\
+\hline
+\textbf{PE4.} ¿En qué medida el enrutamiento predictivo mejora la relación calidad, latencia y costo frente al uso de estrategias fijas? &
+\textbf{OE4.} Comparar el enrutamiento predictivo frente a las estrategias fijas en calidad, latencia y costo. &
+\textbf{HE4.} A4 cumple exactitud relativa $\geq 95\%$ vs la mejor fija y costo o latencia $\leq 70\%$ vs la fija más cara; además, el acierto de ruta supera el de un enrutador al azar. Si falla exactitud o no hay ese margen de costo/latencia, HE4 no se sostiene. &
+\textbf{Indep.:} política de enrutamiento (A4 con R0, R1 o R2) frente a fijas. \textbf{Dep.:} exactitud; latencia; costo; acierto de ruta. &
+Exactitud relativa $\geq 95\%$ vs mejor fija; costo o latencia $\leq 70\%$ vs fija más cara; acierto de ruta; matriz de confusión del enrutador. \\
+\hline
+\textbf{PE5.} ¿Bajo qué condiciones conviene derivar la consulta a la atención del personal administrativo en lugar de insistir con el sistema? &
+\textbf{OE5.} Establecer bajo qué condiciones conviene derivar la consulta a la atención del personal administrativo. &
+\textbf{HE5.} Las reglas o el clasificador de escalamiento alcanzan una tasa de escalamiento correcto por encima del umbral del protocolo en el bloque de evaluación; si la tasa queda bajo ese umbral, HE5 no se sostiene. &
+\textbf{Indep.:} política de escalamiento. \textbf{Dep.:} escalamiento correcto (sí/no respecto de la etiqueta de referencia). &
+Tasa de escalamiento correcto; falsos escalamientos; omisiones de escalamiento. \\
+\hline
+\textbf{PE6.} ¿En qué medida un filtro de seguridad previo al modelo principal reduce la exposición a consultas fuera de dominio, intentos de manipulación y pedidos de datos no autorizados, en términos de bloqueo correcto, falsos positivos y efecto sobre latencia y costo? &
+\textbf{OE6.} Reducir la exposición a consultas fuera de dominio, manipulación y pedidos no autorizados con un filtro previo, midiendo bloqueo correcto y falsos positivos. &
+\textbf{HE6.} El filtro previo eleva el bloqueo correcto sobre el bloque adversario respecto de no filtrar, con falsos positivos sobre consultas válidas por debajo del tope del protocolo, y un sobrecosto de latencia y costo acotado. Si el bloqueo no mejora o los falsos positivos superan el tope, HE6 no se sostiene. &
+\textbf{Indep.:} presencia y tipo de filtro de entrada. \textbf{Dep.:} bloqueo correcto; falsos positivos; latencia y costo adicionales del filtro. &
+Bloqueo correcto; falsos positivos; sobrecosto de latencia y costo. \\
+\hline
+\end{tabularx}
+}
+
+\end{document}
