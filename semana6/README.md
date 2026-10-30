@@ -1,6 +1,5 @@
 # Routing predictivo en consultas académicas-administrativas (UMA)
 
-Semana 6: copia de la semana 5 más el experimento A/B de **variantes de datos (features F0 / F1 / F2)** sobre `candidate_strategy`.
 
 **Caso de estudio:** Facultad de Ingeniería y Negocios, UMA (San Juan de Lurigancho).
 
