@@ -2,7 +2,7 @@
 
 Proyecto de Investigación II — Maestría en Ciencias con mención en Inteligencia Artificial (FIIS–UNI).
 
-Tema: asistente de consultas académicas-administrativas con enrutamiento predictivo (caso UMA–SJL).
+Tema: enrutamiento predictivo de estrategias de atención para consultas académico-administrativas (caso UMA–SJL).
 
 ## Carpetas
 
@@ -11,6 +11,10 @@ Tema: asistente de consultas académicas-administrativas con enrutamiento predic
 | `semana2/` | Diseño del pipeline experimental (doce fases, A0–A5) |
 | `semana3/` | Esqueleto previo / baseline BM25 |
 | `semana4/` | Corpus UMA, banco piloto y EDA preliminar |
+| `semana5/` | Feature engineering del banco piloto (texto, reglas de intención, BM25) |
+| `semana6/` | A/B de conjuntos F0/F1/F2 |
+| `semana7/` | Importancia de variables sobre F1 |
+| `semana8/` | Optimización de hiperparámetros (Random + Optuna TPE) |
 
 ## Semana 4
 

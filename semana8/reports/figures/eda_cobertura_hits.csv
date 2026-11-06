@@ -1,0 +1,15 @@
+aspecto,D001,D002,D003,D004,D005,D006,D007,D008,D009,D010,D011,D012
+matricula_inscripcion,4,9,1,6,2,29,0,0,0,3,10,7
+anulacion_retiro,0,1,0,1,1,0,0,0,0,0,1,1
+asistencia_inasistencia,9,0,5,0,0,1,2,3,0,0,0,9
+evaluacion_examenes,10,0,0,0,0,0,0,1,0,0,3,6
+creditos_academicos,9,7,2,4,2,3,5,0,4,1,2,9
+prerrequisitos,0,1,0,0,0,0,0,0,2,0,0,0
+convalidacion,6,3,0,0,0,5,0,0,23,0,6,2
+aprobacion_desaprobacion,4,9,1,0,41,2,9,6,0,0,0,4
+tramites_grados_titulos,4,0,14,0,104,1,0,0,0,0,23,16
+becas,0,3,2,0,0,6,91,0,0,0,0,7
+admision,4,2,9,1,1,47,0,0,0,0,9,20
+tarifas_pensiones,4,17,3,59,1,0,17,2,0,2,4,60
+malla_plan_estudios,10,7,13,1,6,0,1,2,7,0,4,28
+calendario_periodo,3,2,1,9,0,1,8,2,1,0,2,3

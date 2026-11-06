@@ -1,0 +1,88 @@
+\documentclass[10pt,a4paper,landscape]{article}
+\usepackage[top=0.55cm,bottom=0.5cm,left=3.0cm,right=3.0cm]{geometry}
+\usepackage{fontspec}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{setspace}
+\setmainfont{Arial}
+% Columnas más angostas que el ancho total → más saltos de línea → baja el bloque
+\newcolumntype{Y}{>{\raggedright\arraybackslash\scriptsize}X}
+\pagestyle{empty}
+\begin{document}
+\setstretch{1.0}
+
+\begin{center}
+{\Large\bfseries Matriz de consistencia}\\[0.28em]
+{\normalsize Enrutamiento predictivo de estrategias de atención para consultas académico-administrativas}\\[0.18em]
+{\small Integrantes: Carlos Sánchez y Freud Melgar}
+\end{center}
+
+\vspace{0.3em}
+\noindent\textbf{\small Caso general}\\[0.18em]
+{\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\linewidth}{|Y|Y|Y|Y|Y|}
+\hline
+\textbf{\footnotesize Problema} & \textbf{\footnotesize Objetivos} & \textbf{\footnotesize Hipótesis} & \textbf{\footnotesize Variables} & \textbf{\footnotesize Indicadores} \\
+\hline
+\textbf{Problema general.} ¿En qué medida el enrutamiento predictivo de estrategias de atención alcanza al menos el 95\,\% de la exactitud de la mejor estrategia fija del estudio y, a la vez, deja el costo o la latencia agregados en a lo más el 70\,\% de los de la estrategia fija más cara, en consultas académico-administrativas de la Facultad de Ingeniería y Negocios de la UMA en San Juan de Lurigancho? &
+\textbf{Objetivo general.} Lograr, mediante enrutamiento predictivo de estrategias de atención frente a estrategias fijas, que la exactitud en el bloque de evaluación sea al menos el 95\,\% de la exactitud de la mejor estrategia fija del estudio y que el costo o la latencia agregados no superen el 70\,\% de los de la estrategia fija más cara, en consultas académico-administrativas de la Facultad de Ingeniería y Negocios de la Universidad María Auxiliadora. &
+\textbf{Hipótesis general.} En el bloque de evaluación, el enrutamiento predictivo alcanza al menos el 95\,\% de la exactitud de la mejor estrategia fija y deja el costo o la latencia agregados en a lo más el 70\,\% de los de la estrategia fija más cara. Si no se cumplen esos umbrales, la hipótesis general no se sostiene. &
+\textbf{Independiente:} condición de atención (A0--A4; en A4, política R0--R2). \textbf{Dependientes:} exactitud, fidelidad a fuentes, latencia, costo (USD/consulta), acierto de ruta, tasa de escalamiento correcto. &
+Exactitud relativa $\geq 95\%$ vs mejor fija; costo o latencia $\leq 70\%$ vs fija más cara; fidelidad; acierto de ruta; escalamiento correcto. \\
+\hline
+\end{tabularx}
+}
+
+\vspace{0.35em}
+\noindent\textbf{\small Casos específicos}\\[0.18em]
+{\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.28}
+\begin{tabularx}{\linewidth}{|Y|Y|Y|Y|Y|}
+\hline
+\textbf{\footnotesize Problema} & \textbf{\footnotesize Objetivos} & \textbf{\footnotesize Hipótesis} & \textbf{\footnotesize Variables} & \textbf{\footnotesize Indicadores} \\
+\hline
+\textbf{PE1.} ¿Se logra un banco de consultas académico-administrativas con respuestas de referencia y etiquetas elaboradas con apoyo de expertos, con acuerdo entre anotadores de kappa de Cohen mayor o igual a 0,85? &
+\textbf{OE1.} Construir un banco de consultas académico-administrativas con respuestas de referencia y etiquetas elaboradas con apoyo de expertos, de modo que el acuerdo entre anotadores alcance un kappa de Cohen mayor o igual a 0,85. &
+\textbf{HE1.} El banco de calibración y evaluación queda construido con respuestas de referencia y etiquetas elaboradas con apoyo de expertos, y el acuerdo entre anotadores alcanza un kappa de Cohen mayor o igual a 0,85. Si el kappa queda bajo 0,85, HE1 no se sostiene. &
+\textbf{Indep.:} procedimiento de construcción y validación del banco. \textbf{Dep.:} cobertura por tipología; acuerdo entre expertos ($\kappa$); completitud de la respuesta de referencia. &
+Cobertura de tipologías; $\kappa\geq 0{,}85$; proporción de ítems con respuesta de referencia completa. \\
+\hline
+\textbf{PE2.} ¿Cuál estrategia fija de atención alcanza la mayor exactitud en el bloque de evaluación, y con qué latencia y costo asociados? &
+\textbf{OE2.} Determinar cuál estrategia fija de atención alcanza la mayor exactitud en el bloque de evaluación y reportar la latencia y el costo asociados a esa estrategia. &
+\textbf{HE2.} En el bloque de evaluación, las estrategias fijas difieren en exactitud, latencia o costo, de modo que puede designarse una estrategia de referencia por mayor exactitud. Si todas las fijas empatan en las tres magnitudes, HE2 no se sostiene. &
+\textbf{Indep.:} estrategia fija (A0, A1, A2, A3). \textbf{Dep.:} exactitud; fidelidad; latencia; costo USD. &
+Exactitud; fidelidad a fuentes; latencia; costo USD por estrategia fija. \\
+\hline
+\textbf{PE3.} ¿En qué tipologías una estrategia más compleja supera en exactitud a una estrategia fija simple sin superar el costo o la latencia de esa simple según el margen del protocolo? &
+\textbf{OE3.} Delimitar las tipologías de consulta en las que una estrategia más compleja supera en exactitud a una estrategia fija simple sin superar el costo o la latencia de esa simple según el margen fijado en el protocolo de evaluación. &
+\textbf{HE3.} Existe al menos una tipología en la que una estrategia más compleja supera en exactitud a una estrategia fija simple sin superar el costo o la latencia de esa simple según el margen del protocolo. Si ninguna tipología cumple esa condición, HE3 no se sostiene. &
+\textbf{Indep.:} tipología $\times$ estrategia fija. \textbf{Dep.:} mejora de exactitud por tipología sin superar el margen de costo o latencia. &
+Mejora de exactitud por tipología sin superar el margen de costo o latencia del protocolo. \\
+\hline
+\textbf{PE4.} ¿El enrutamiento predictivo alcanza al menos el 95\,\% de la exactitud de la mejor estrategia fija y a lo más el 70\,\% del costo o la latencia de la estrategia fija más cara en el bloque de evaluación? &
+\textbf{OE4.} Alcanzar, con el enrutamiento predictivo, al menos el 95\,\% de la exactitud de la mejor estrategia fija y a lo más el 70\,\% del costo o la latencia de la estrategia fija más cara en el bloque de evaluación. &
+\textbf{HE4.} El enrutamiento predictivo alcanza al menos el 95\,\% de la exactitud de la mejor estrategia fija y a lo más el 70\,\% del costo o la latencia de la estrategia fija más cara en el bloque de evaluación. Si falla alguno de esos umbrales, HE4 no se sostiene. &
+\textbf{Indep.:} política de enrutamiento (A4 con R0, R1 o R2) frente a fijas. \textbf{Dep.:} exactitud; latencia; costo; acierto de ruta. &
+Exactitud relativa $\geq 95\%$ vs mejor fija; costo o latencia $\leq 70\%$ vs fija más cara; acierto de ruta; matriz de confusión del enrutador. \\
+\hline
+\textbf{PE5.} ¿Qué condiciones de derivación a personal administrativo elevan la tasa de escalamiento correcto frente al criterio de referencia del protocolo? &
+\textbf{OE5.} Definir condiciones de derivación a personal administrativo que eleven la tasa de escalamiento correcto frente al criterio de referencia del protocolo de evaluación. &
+\textbf{HE5.} Las condiciones de derivación a personal administrativo elevan la tasa de escalamiento correcto por encima del criterio de referencia del protocolo en el bloque de evaluación. Si la tasa queda bajo ese criterio, HE5 no se sostiene. &
+\textbf{Indep.:} política de escalamiento. \textbf{Dep.:} escalamiento correcto (sí/no respecto de la etiqueta de referencia). &
+Tasa de escalamiento correcto; falsos escalamientos; omisiones de escalamiento. \\
+\hline
+\textbf{PE6.} ¿El filtro previo al modelo principal logra bloqueo correcto frente a fuera de dominio, manipulación y pedidos no autorizados, con falsos positivos y sobrecosto de latencia dentro de los límites del protocolo? &
+\textbf{OE6.} Alcanzar, con el filtro previo al modelo principal, bloqueo correcto de consultas fuera de dominio, manipulación y pedidos no autorizados, manteniendo falsos positivos y sobrecosto de latencia dentro de los límites del protocolo de evaluación. &
+\textbf{HE6.} El filtro previo logra bloqueo correcto frente a fuera de dominio, manipulación y pedidos no autorizados, con falsos positivos y sobrecosto de latencia dentro de los límites del protocolo. Si el bloqueo no mejora o se violan esos límites, HE6 no se sostiene. &
+\textbf{Indep.:} presencia y tipo de filtro de entrada. \textbf{Dep.:} bloqueo correcto; falsos positivos; latencia y costo adicionales del filtro. &
+Bloqueo correcto; falsos positivos; sobrecosto de latencia y costo. \\
+\hline
+\end{tabularx}
+}
+
+\end{document}

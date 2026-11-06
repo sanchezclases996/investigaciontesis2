@@ -1,0 +1,4 @@
+metodo,modelo,conjunto,etiqueta,semilla,f1_macro_cv,top1,top1_valor
+impurity,"RandomForestClassifier(n_estimators=300, class_weight=balanced)",F1,candidate_strategy,42,0.553 ± 0.086,query_length_chars,0.371675094005747
+permutation,"RandomForestClassifier(n_estimators=300, class_weight=balanced)",F1,candidate_strategy,42,0.553 ± 0.086,contains_personal_case,0.07714795979974573
+shap_tree,"RandomForestClassifier(n_estimators=300, class_weight=balanced)",F1,candidate_strategy,42,0.553 ± 0.086,query_length_chars,0.10930627367981952

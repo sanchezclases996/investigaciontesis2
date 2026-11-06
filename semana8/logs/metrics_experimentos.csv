@@ -1,0 +1,4 @@
+experimento,nota,columnas,f1_macro,f1_ponderado,exactitud,fit_s,predict_s,semilla,pliegues_cv,etiqueta,modelo,filas
+Baseline_F0,solo forma del texto,8,0.474 ± 0.032,0.514,0.495,0.0056,0.0013,42,5,candidate_strategy,LogisticRegression(class_weight=balanced),196
+Var1_F1,texto más intención,17,0.533 ± 0.046,0.622,0.602,0.0066,0.0018,42,5,candidate_strategy,LogisticRegression(class_weight=balanced),196
+Var2_F2,intención más BM25,22,0.511 ± 0.061,0.595,0.577,0.0069,0.0016,42,5,candidate_strategy,LogisticRegression(class_weight=balanced),196

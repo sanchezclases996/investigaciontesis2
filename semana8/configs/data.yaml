@@ -1,0 +1,12 @@
+seed: 42
+case: "UMA-SJL Facultad de Ingeniería y Negocios"
+raw_public_dir: data/raw/public_documents
+raw_authorized_dir: data/raw/authorized_documents
+interim_text_dir: data/interim/extracted_text
+interim_meta_dir: data/interim/document_metadata
+corpus_dir: data/processed/corpus
+question_bank_dir: data/processed/question_bank
+ground_truth_dir: data/processed/ground_truth
+splits_dir: data/processed/splits
+pilot_bank_size: 300  # meta 300-500; ajustable
+query_types: [N, R, M, A]  # norma, malla, mixta, trámite→persona

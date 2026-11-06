@@ -1,0 +1,7 @@
+normalize_unicode: true
+strip_control_chars: true
+min_chars_per_doc: 40
+detect_duplicates: true
+keep_tables: true
+keep_legal_headers: true
+languages: [es, en]

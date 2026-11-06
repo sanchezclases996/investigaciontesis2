@@ -1,0 +1,4 @@
+rol,config,f1_macro_mean,f1_macro_std,hp_n_estimators,hp_max_depth,hp_min_samples_split,hp_min_samples_leaf,hp_max_features,hp_max_samples
+ganadora,baseline,0.55277565579578,0.0860525195480174,300,,2,1,sqrt,
+respaldo,best_tpe,0.5452501505830227,0.058766949111806625,500,,8,8,,
+baseline,baseline,0.55277565579578,0.0860525195480174,300,,2,1,sqrt,

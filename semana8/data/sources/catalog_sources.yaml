@@ -1,0 +1,90 @@
+# Catálogo de fuentes públicas UMA (caso Facultad de Ingeniería y Negocios / SJL).
+# Orden de trabajo: (1) registrar → (2) descargar → (3) extraer → (4) organizar → (5) EDA.
+
+case: UMA-SJL
+portals:
+  reglamentos: https://uma.edu.pe/resolucion-reglamentos/
+  faq: https://uma.edu.pe/preguntas-frecuentes/
+  transparencia: https://uma.edu.pe/transparencia2026/
+
+# Prioridad alta para el piloto académico-administrativo
+priority_documents:
+  - doc_id: D001
+    tipo_documento: reglamento_academico
+    titulo: Reglamento académico
+    url: https://uma.edu.pe/documentos/reglamentos%20y%20resoluciones/Reglamento-academico.pdf
+    dominio: academico
+    prioridad: alta
+  - doc_id: D002
+    tipo_documento: reglamento_matricula
+    titulo: Reglamento general de matrícula
+    url: https://uma.edu.pe/documentos/reglamentos%20y%20resoluciones/REGLAMENTO%20DE%20MATRICULA.pdf
+    dominio: matricula
+    prioridad: alta
+  - doc_id: D003
+    tipo_documento: reglamento_general
+    titulo: Reglamento general de la UMA (2025)
+    url: https://uma.edu.pe/documentos/reglamentos%20y%20resoluciones/REGLAMENTO%20GENERAL%202025%20ultimo.pdf
+    dominio: institucional
+    prioridad: alta
+  - doc_id: D004
+    tipo_documento: reglamento_economico
+    titulo: Reglamento económico universitario
+    url: https://uma.edu.pe/documentos/reglamentos%20y%20resoluciones/Reglamento_economico_universitario.pdf
+    dominio: economico
+    prioridad: alta
+  - doc_id: D005
+    tipo_documento: grados_titulos
+    titulo: Reglamento de grados y títulos
+    url: https://uma.edu.pe/documentos/reglamentos%20y%20resoluciones/043-Reglamento-de-Grados-y-Titulo.pdf
+    dominio: tramites
+    prioridad: alta
+  - doc_id: D006
+    tipo_documento: admision_pregrado
+    titulo: Reglamento de admisión de pregrado
+    url: https://uma.edu.pe/documentos/reglamentos%20y%20resoluciones/reglamento-admision-pregrado.pdf
+    dominio: admision
+    prioridad: media
+  - doc_id: D007
+    tipo_documento: becas
+    titulo: Reglamento de becas
+    url: https://uma.edu.pe/documentos/reglamentos%20y%20resoluciones/REGLAMENTO-DE-BECAS.pdf
+    dominio: economico
+    prioridad: media
+  - doc_id: D008
+    tipo_documento: tutoria
+    titulo: Reglamento del sistema de tutoría universitaria
+    url: https://uma.edu.pe/documentos/reglamentos%20y%20resoluciones/reglamento-del-sistema-de-tutoria-universitaria-actualizacion.pdf
+    dominio: academico
+    prioridad: media
+  - doc_id: D009
+    tipo_documento: convalidaciones
+    titulo: Reglamento de convalidaciones y/o reconocimiento de cursos
+    url: https://uma.edu.pe/documentos/reglamentos%20y%20resoluciones/Reglamento-de-convalidaciones-y-reconocimiento-de-cursos.pdf
+    dominio: academico
+    prioridad: media
+  - doc_id: D010
+    tipo_documento: proceso_matricula
+    titulo: Proceso de matrícula (guía)
+    url: https://uma.edu.pe/documentos/proceso%20de%20matricula/proceso_matricula2021web.pdf
+    dominio: matricula
+    prioridad: media
+  - doc_id: D011
+    tipo_documento: tarifario
+    titulo: Tarifario UMA 2025
+    url: https://uma.edu.pe/documentos/transparencia/Tarifario-uma-2025.pdf
+    dominio: economico
+    prioridad: baja
+  - doc_id: D012
+    tipo_documento: faq_web
+    titulo: Preguntas frecuentes UMA (HTML)
+    url: https://uma.edu.pe/preguntas-frecuentes/
+    dominio: orientacion
+    formato: html
+    prioridad: alta
+
+pending_institutional:
+  - mallas_facultad_ingenieria_negocios
+  - calendario_academico_vigente
+  - procedimientos_secretaria_no_publicos
+  - consultas_reales_anonimizadas

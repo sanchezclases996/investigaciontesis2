@@ -1,0 +1,8 @@
+policy: predictive  # A5
+features: [query_length, has_course_code, needs_prereq, needs_norm, ambiguity_score]
+algorithm: logistic_regression
+random_state: 42
+calibrate_on: c_cal
+evaluate_on: c_eval
+fallback_strategy: A1
+escalate_to_human_types: [A]

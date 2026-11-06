@@ -1,0 +1,7 @@
+metrics:
+  quality: [exactitud, fidelidad_fuentes, citas, sin_fundamento]
+  efficiency: [latency_p50, latency_p95, usd_per_query, tokens]
+  routing: [route_accuracy, costly_misroutes, escalate_correct]
+paired_comparisons: true
+confidence_level: 0.95
+seed: 42

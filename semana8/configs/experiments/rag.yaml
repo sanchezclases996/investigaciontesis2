@@ -1,0 +1,8 @@
+name: rag
+strategies: [A1]
+description: "Solo RAG (norma/calendario) con citas."
+config_refs:
+  data: configs/data.yaml
+  retrieval: configs/retrieval.yaml
+  models: configs/models.yaml
+  evaluation: configs/evaluation.yaml

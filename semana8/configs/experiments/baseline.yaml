@@ -1,0 +1,8 @@
+name: baseline
+strategies: [A0, A1]
+description: "Modelo base vs RAG sobre el mismo banco."
+config_refs:
+  data: configs/data.yaml
+  retrieval: configs/retrieval.yaml
+  models: configs/models.yaml
+  evaluation: configs/evaluation.yaml

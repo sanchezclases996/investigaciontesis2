@@ -1,0 +1,6 @@
+# Par API a fijar en el experimento (sin torneo multi-marca)
+temperature: 0.0
+cheap_model_env: MODEL_CHEAP
+strong_model_env: MODEL_STRONG
+embedding_model_env: EMBEDDING_MODEL
+max_output_tokens: 800

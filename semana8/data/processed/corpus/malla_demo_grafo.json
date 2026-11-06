@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "status": "synthetic_placeholder",
+    "note": "Reemplazar con malla oficial de la facultad cuando se autorice/publique."
+  },
+  "courses": {
+    "MAT101": {
+      "name": "Matemática I",
+      "credits": 4,
+      "prereq": [],
+      "unlocks": [
+        "MAT102"
+      ]
+    },
+    "MAT102": {
+      "name": "Matemática II",
+      "credits": 4,
+      "prereq": [
+        "MAT101"
+      ],
+      "unlocks": [
+        "EST201"
+      ]
+    },
+    "EST201": {
+      "name": "Estadística",
+      "credits": 3,
+      "prereq": [
+        "MAT102"
+      ],
+      "unlocks": []
+    },
+    "PRG101": {
+      "name": "Programación I",
+      "credits": 4,
+      "prereq": [],
+      "unlocks": [
+        "PRG102"
+      ]
+    },
+    "PRG102": {
+      "name": "Programación II",
+      "credits": 4,
+      "prereq": [
+        "PRG101"
+      ],
+      "unlocks": []
+    }
+  }
+}

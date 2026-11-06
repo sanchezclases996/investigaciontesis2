@@ -1,0 +1,70 @@
+{
+  "documental": {
+    "n_docs": 12,
+    "n_ok": 11,
+    "n_weak": 1,
+    "weak_ids": [
+      "D010"
+    ],
+    "total_words": 48730,
+    "total_pages": 102,
+    "by_dominio": {
+      "academico": 3,
+      "admision": 1,
+      "economico": 3,
+      "institucional": 1,
+      "matricula": 2,
+      "orientacion": 1,
+      "tramites": 1
+    },
+    "docs_con_tema": {
+      "matricula_inscripcion": 6,
+      "anulacion_retiro": 0,
+      "asistencia_inasistencia": 4,
+      "evaluacion_examenes": 3,
+      "creditos_academicos": 7,
+      "prerrequisitos": 0,
+      "convalidacion": 5,
+      "aprobacion_desaprobacion": 6,
+      "tramites_grados_titulos": 5,
+      "becas": 4,
+      "admision": 5,
+      "tarifas_pensiones": 6,
+      "malla_plan_estudios": 7,
+      "calendario_periodo": 4
+    },
+    "coverage_umbrales": {
+      "min_hits": 3,
+      "min_densidad_por_1k": 0.4,
+      "min_tfidf_cosine": 0.04,
+      "min_words_doc": 300
+    },
+    "coverage_csv": "/Users/cesarsanchez/Documents/04-archivo/01-educacion/01-universidad/1_FIIS_UNI/3_Term-III/Investigacion 1/Investigacion-Tesis/3_Sustentacion/3_entregable_curso_tesis/semana4/reports/figures/eda_matriz_cobertura.csv",
+    "coverage_tfidf_csv": "/Users/cesarsanchez/Documents/04-archivo/01-educacion/01-universidad/1_FIIS_UNI/3_Term-III/Investigacion 1/Investigacion-Tesis/3_Sustentacion/3_entregable_curso_tesis/semana4/reports/figures/eda_cobertura_tfidf.csv"
+  },
+  "consultas": {
+    "n_queries": 196,
+    "by_categoria": {
+      "A": 44,
+      "M": 11,
+      "N": 125,
+      "R": 16
+    },
+    "by_complejidad": {
+      "baja": 107,
+      "media": 65,
+      "alta": 24
+    },
+    "requiere_herramienta": 16,
+    "requiere_multiples_fuentes": 11,
+    "es_respondible": 193,
+    "validacion": {
+      "draft": 196
+    },
+    "by_strategy": {
+      "A1": 125,
+      "A5": 44,
+      "A3": 27
+    }
+  }
+}
