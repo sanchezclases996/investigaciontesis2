@@ -1,7 +1,0 @@
-pandas>=2.2
-scikit-learn>=1.5
-matplotlib>=3.8
-optuna>=3.6
-shap>=0.45
-jupyter>=1.0
-nbconvert>=7.0
