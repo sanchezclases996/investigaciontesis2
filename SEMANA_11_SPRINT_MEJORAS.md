@@ -33,7 +33,7 @@
 
 | # | Entregable | Criterio de "terminado" |
 |---|---|---|
-| S1 | Entorno local reproducible: RAG base (Flowise) + índice vectorial + trazas en LangSmith, cargado con el corpus público de la UMA. | Se levanta desde cero con un solo comando y cada consulta deja una traza. |
+| S1 | Entorno local reproducible: RAG base + índice vectorial + trazas en LangSmith, cargado con el corpus público de la UMA. | Se levanta desde cero con un solo comando y cada consulta deja una traza. |
 | S2 | Script en Python que corre un banco de 20–30 consultas y genera una tabla de resultados. | Corridas repetibles: la misma entrada produce la misma tabla. |
 | S3 | **Piloto de 20 consultas** de asesor (unas 4 de abstención) con tres configuraciones: A1-barato, A1-caro y A3-caro. | Tabla con exactitud, costo en USD y latencia p50/p95 por configuración, más el oráculo. |
 | S4 | Primera frontera calidad–costo y cálculo del ahorro que capturaría el oráculo. | Gráfico exactitud vs. costo con las configuraciones fijas. |
