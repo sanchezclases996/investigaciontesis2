@@ -27,8 +27,6 @@
 - La etiqueta `candidate_strategy` se derivaba directamente de `categoria`. Por eso el macro-F1 de 0,553 medía la reproducción de una regla, no la elección de la ruta más barata aceptable.
 - **Corrección:** la etiqueta pasa a ser la *opción más barata que responde correctamente*. Se obtiene ejecutando todas las configuraciones sobre cada consulta del conjunto de referencia y quedándose con la de menor costo que aprueba la evaluación.
 
-**Lo que se retira:** el banco de alumnos, el grafo de demostración y los perfiles sintéticos, porque ya no corresponden al nuevo usuario (el asesor).
-
 **Pendiente en la estructura:** las carpetas `retrieval/`, `models/`, `routing/` y `evaluation/` todavía están vacías y se llenan en el siguiente sprint.
 
 ## 3. Plan de mejora para el siguiente sprint
